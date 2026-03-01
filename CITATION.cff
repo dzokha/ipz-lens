@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this software in your research, please cite it using the following metadata."
 
-title: "SDN-FlexShield: Sentinel Module"
+title: "SDN-FlexShield: Sentinel"
 version: "1.2"
 date-released: 2026-02-06
 
 abstract: >
-  SDN-FlexShield Sentinel is a browser-based security analysis module that employs
+  SDN-FlexShield Sentinel is a browser-based security module that employs
   heuristic-based static analysis, transparent risk scoring, and explainable threat
   indicators to enhance cybersecurity awareness. The system targets phishing detection,
   IDN homograph attacks, and protocol-level inspection, supporting education and research
