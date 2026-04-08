@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "SDN-FlexShield: Sentinel",
   "short_name": "FlexShield",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Thành phần giám sát điểm cuối thuộc hệ sinh thái SDN-FlexShield Defender. Hỗ trợ phát hiện xâm nhập và phân tích an toàn mạng trong kỷ nguyên chuyển đổi số.",
   
   "permissions": [
@@ -24,17 +24,17 @@
   ],
 
   "icons": {
-    "16": "assets/images/logo.png",
-    "48": "assets/images/logo.png",
-    "128": "assets/images/logo.png"
+    "16": "assets/images/ipz.png",
+    "48": "assets/images/ipz.png",
+    "128": "assets/images/ipz.png"
   },
   "action": {
     "default_popup": "src/popup/popup.html",
     "default_title": "SDN-FlexShield: Sentinel Monitor",
     "default_icon": {
-      "16": "assets/images/logo.png",
-      "48": "assets/images/logo.png",
-      "128": "assets/images/logo.png"
+      "16": "assets/images/ipz.png",
+      "48": "assets/images/ipz.png",
+      "128": "assets/images/ipz.png"
     }
   },
 
