@@ -1,5 +1,5 @@
 
-# SDN-FlexShield: Sentinel
+# IPZ LENS
 
 **Client-side, Indicator-based Phishing Awareness Browser Extension**
 
