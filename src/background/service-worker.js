@@ -1,7 +1,4 @@
 
-
-
-
 /**
  * SDN-FlexShield: Sentinel - Background Service Worker
  * Chịu trách nhiệm điều phối phân tích nguy cơ và ghi nhận sự kiện hệ thống.
@@ -13,9 +10,9 @@ import { logger } from '../modules/logger.js';
 // 1. Lắng nghe sự kiện cài đặt/cập nhật extension
 chrome.runtime.onInstalled.addListener((details) => {
     if (details.reason === "install") {
-        logger("SDN-FlexShield: Sentinel đã được cài đặt lần đầu.", "INFO");
+        logger("IPZ LENS đã được cài đặt lần đầu.", "INFO");
     } else if (details.reason === "update") {
-        logger("SDN-FlexShield: Sentinel đã được cập nhật lên phiên bản mới.", "INFO");
+        logger("IPZ LENS đã được cập nhật lên phiên bản mới.", "INFO");
     }
     
     // Khởi tạo giá trị mặc định trong storage nếu cần
@@ -69,3 +66,4 @@ chrome.tabs.onActivated.addListener((activeInfo) => {
     // Bạn có thể thêm logic quét tự động khi người dùng chuyển tab tại đây
     // logger(`Đang giám sát Tab ID: ${activeInfo.tabId}`);
 });
+

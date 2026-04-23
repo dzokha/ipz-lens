@@ -25,7 +25,7 @@ export const logger = (message, level = LOG_LEVELS.INFO) => {
     };
 
     // 1. Hiển thị ra Console của Extension (để debug)
-    const logString = `[${timestamp}] [${level}] SDN-FlexShield: ${message}`;
+    const logString = `[${timestamp}] [${level}] IPZ LENS: ${message}`;
     
     switch (level) {
         case LOG_LEVELS.ERROR:

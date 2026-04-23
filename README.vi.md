@@ -1,4 +1,4 @@
-# IPZ LENS
+# LENS
 
 **Tiện ích trình duyệt phân tích chỉ số nhận diện tấn công giả mạo (Phishing) phía máy khách**
 

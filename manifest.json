@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "SDN-FlexShield: Sentinel",
-  "short_name": "FlexShield",
+  "name": "LENS",
+  "short_name": "LENS",
   "version": "1.2.0",
-  "description": "Thành phần giám sát điểm cuối thuộc hệ sinh thái SDN-FlexShield Defender. Hỗ trợ phát hiện xâm nhập và phân tích an toàn mạng trong kỷ nguyên chuyển đổi số.",
+  "description": "Hỗ trợ phát hiện xâm nhập và phân tích an toàn mạng trong kỷ nguyên chuyển đổi số.",
   
   "permissions": [
     "activeTab", // Used only to analyze the currently visited URL for security indicators
@@ -30,7 +30,7 @@
   },
   "action": {
     "default_popup": "src/popup/popup.html",
-    "default_title": "SDN-FlexShield: Sentinel Monitor",
+    "default_title": "LENS Monitor",
     "default_icon": {
       "16": "assets/images/ipz.png",
       "48": "assets/images/ipz.png",
